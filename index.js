@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const blogRouter = require("./routes/BlogRoutes");
+const blogRouter = require("./routes/BlogRoutes.js");
  
 const mongoose = require("mongoose");
 //configure mongoose
